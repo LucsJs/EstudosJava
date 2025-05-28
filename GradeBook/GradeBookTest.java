@@ -3,7 +3,7 @@ public class GradeBookTest {
 		GradeBook myGradeBook = new GradeBook("CS101 Introduction to Java Programming");
 		
 		myGradeBook.displayMessage();
-		myGradeBook.determineClassAvarage();
-		
+		myGradeBook.inputGrades();
+		myGradeBook.displayGradeReport();
 	}
 }
